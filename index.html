@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- * animate css -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+  
+
     <!-- font awesome iconunun komputeri (baglanti linki) -->
     <!-- TODO font awesome bağlantı linkidir -->
     <link
@@ -23,14 +30,28 @@
   <body>
 <div class="parentdiv">
 
-
   <header>
+    <img src="./images/logo.svg" alt="" />
+
+
+    <nav class="nav-links">
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Projects</a>
+      <a href="">Blog</a>
+      <a href="">Book a call <i class="fa-solid fa-arrow-right"></i></a>
+    </nav>
+
+    <i class="fa-solid fa-bars"></i>
+    
   </header>
+
+<!-- todo introduction start -->
 
   <section class="introduction">
     <div class="intro-left-side">
-      <!-- nested tag -->
-      <h1> <span> I design products </span>
+      <!-- * nested tag -->
+      <h1> <span>I design products </span>
         that delight and 
         inspire people
       </h1>
@@ -38,7 +59,7 @@
     <article>Hi! I'm <strong>Huseynrza</strong> , a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.</article>
     
    <div class="book-a-call">
-    <a href="" class="book-a-call">Book a call</a>
+    <a href="" class="book-a-call-btn">Book a call</a>
     <a href="">Download CV <img src="./images/sagox.svg" alt=""></a>
    </div>
     
@@ -50,26 +71,79 @@
     </div>
   </section>
 
-  <footer>
-    <p>Muellif huquqlari qorunur</p>
-  </footer>
+
+  <!-- todo introduction end -->
+
+  <!-- todo partnyorlar start -->
+
+<section class="emekdaslar">
+ <h6>Trusted By</h6>
+
+ <div class="shirketler"></div>
+   <img src="./images/emekdaslar/emekdas-1.svg" alt="">
+   <img src="./images/emekdaslar/emekdas-2.svg" alt="">
+   <img src="./images/emekdaslar/emekdas-3.svg" alt="">
+   <img src="./images/emekdaslar/emekdas-4.svg" alt="">
+</section>
+
+  <!-- todo partnyorlar end -->
+
+
+  <!-- todo services start -->
+<section class="services">
+<h6>Services</h6>
+<h1 class="animate__animated animate__fadeInLeftBig">Design that solves problems, <br> one product at a time.</h1>
+
+<div class="services-cards">
+
+  <div class="card">
+
+    <img src="./images/services/services-1.svg" alt="">
+    <h3>What I can do for you</h3>
+    <article>Faster, better products that your users love. Here's all the services I provide:</article>
+    <!-- * unordered list -->
+    <ul>
+      <li>Design Strategy</li>
+      <li>Web and Mobile App Design</li>
+      <li>Front-end Development</li>
+    </ul>
+  </div>
+
+<!-- * 2-ci kart -->
+
+<div class="card">
+  <img src="./images/services/services-2.svg" alt="">
+  <h3>Applications I'm fluent in</h3>
+  <article>Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.</article>
+  <!-- * unordered list -->
+  <ul>
+    <li>Sketch</li>
+    <li>Webflow</li>
+    <li>Figma</li>
+  </ul>
+</div>
+
+<div class="card">
+  <img src="./images/services/services-3.svg" alt="">
+  <h3>What you can expect</h3>
+  <article>I design products that are more than pretty. I make them shippable and usable.</article>
+  <!-- * unordered list -->
+  <ul>
+    <li>Clean and functional</li>
+    <li>Device and user friendly</li>
+    <li>Efficient and maintainable</li>
+  </ul>
+</div>
+
+</div>
+
+</section>
+
+
+  <!-- todo services end -->
   
 </div>
-    <header>
-      <img src="./images/logo.svg" alt="" />
 
-
-      <nav>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Projects</a>
-        <a href="">Blog</a>
-        <a href="">Book a call <i class="fa-solid fa-arrow-right"></i></a>
-      </nav>
-
-      <i class="fa-solid fa-bars"></i>
-      
-    </header>
   <section class="orta-hisse"></section>
 
     <!-- TODO Formatlaşdırma teqləri -->
