@@ -21,10 +21,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.parentdiv .nav-links {
+    display: flex;
+    margin-top: 10px;
+}
 
+.CV {
+    color:#000
+}
 
 header {
-    /*display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center; */
     display: flex;
@@ -133,7 +140,7 @@ display: none;
     transition: all .5s ease-in;
 }
 
-.services-cards  .card:hover {
+.services-cards .card:hover {
     -webkit-box-shadow: 7px 9px 20px 6px rgba(247,244,247,1);
     -moz-box-shadow: 7px 9px 20px 6px rgba(247,244,247,1);
     box-shadow: 7px 9px 20px 6px rgba(247,244,247,1);
